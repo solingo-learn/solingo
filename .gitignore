@@ -1,0 +1,86 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Environment files
+.env
+.env.local
+.env*.local
+.env.production
+.env.development
+
+# typescript
+*.tsbuildinfo
+
+# Build & Deploy
+dist/
+archive/
+artifacts/
+.vercel
+.netlify
+
+# Build artifacts - iOS/Android
+*.ipa
+*.apk
+*.aab
+
+# Sensitive config files
+eas.json
+app.config.ts
+netlify.toml
+vercel.json
+
+# Apple credentials & guides
+AuthKey*.p8
+*.certSigningRequest
+*.cer
+generate-apple-jwt.js
+APPLE-*.md
+
+# Supabase config
+supabase/
+supabase-*.sql
+SUPABASE-*.md
+
+# Private documentation
+SOLINGO-MASTER-PLAN.txt
+AUDIT-REPORT.md
+MASCOTTES-GUIDE.md
+
+# Google Service Account
+google-service-account.json
+google-services.json
+
+# EAS secrets
+eas-credentials/
+
+# IDE
+.idea/
+.vscode/

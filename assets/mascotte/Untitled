@@ -1,0 +1,56 @@
+Static Rendering Error (Node.js)
+Metro has encountered an error: ENOENT: no such file or directory, lstat '/Users/hamzacelik/Downloads/euolingo-main/.expo': node:fs (2729:29)
+
+Source
+ 
+ 150 |
+        
+// }
+ 
+ 151 |
+        
+// The Metro logger already showed this error.
+>
+ 152 |
+        
+throw
+ 
+new
+ 
+Error
+(data
+.
+message)
+;
+ 
+     |
+              
+^
+ 
+ 153 |
+    }
+ 
+ 154 |
+    
+throw
+ 
+new
+ 
+Error
+(
+"Invalid resources returned from the Metro serializer. Expected array, found: "
+ 
++
+ data)
+;
+ 
+ 155 |
+}
+Call Stack
+MetroBundlerDevServer.getStaticResourcesAsync
+node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js:152:19
+async MetroBundlerDevServer.getStaticPageAsync
+node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js:179:41
+async
+node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js:291:46
+See 1 more frame

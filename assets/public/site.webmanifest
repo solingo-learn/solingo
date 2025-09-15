@@ -1,0 +1,30 @@
+{
+  "short_name": "Solingo",
+  "name": "Solingo: Learn Solana & Crypto the fun way",
+  "description": "The free, fun, and effective way to learn Solana and crypto.",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/solingo-app/solingo/main/assets/public/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/solingo-app/solingo/main/assets/public/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#9945FF",
+  "background_color": "#1C1C1E",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "https://solingo.vercel.app/",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://solingo.vercel.app"
+    }
+  ],
+  "lang": "en-US"
+}
